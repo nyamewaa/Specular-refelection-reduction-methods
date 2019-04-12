@@ -4,7 +4,6 @@
 %Last updated 04/12/2019
 clc;close all; clear all;
 dirlist = [dir('*.tif');dir('*.jpg')];%dir('*.tif');
-% % cd('S:\Nimmi\Cervix Data\Cervix Imaging - Cervix 1 Local');
  for i=1:length(dirlist)
     img = imread(dirlist(i).name);
     folder = 'X:\Mercy\Image processing\VIA image processing\Processing_without_ectopion\Zambia\White Images\cervix_boxcrop\'; %Folder where the image is saved
